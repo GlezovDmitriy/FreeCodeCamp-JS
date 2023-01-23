@@ -12,3 +12,13 @@ let myVar = 87;
 // Only change code below this line
 myVar++;
 //15
+let myVar = 11;
+
+// Only change code below this line
+myVar--;
+//16
+const ourDecimal = 5.7;
+
+// Only change code below this line
+var myDecimal = 5.7;
+//17
