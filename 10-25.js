@@ -67,3 +67,9 @@ const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Ch
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 //25
 const myStr = "FirstLine\n\t\\\SecondLine\nThirdLine"; // Change this line
+//26
+const myStr = "This is the start."+" This is the end."; // Change this line
+//27
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence."
+//28
