@@ -73,3 +73,59 @@ const myStr = "This is the start."+" This is the end."; // Change this line
 let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence."
 //28
+// Only change code below this line
+const myName = "Dima";
+const myStr = "My name is "+ myName + " and I am well!";
+//29
+// Change code below this line
+const someAdjective = "good";
+let myStr = "Learning to code is ";
+myStr+= someAdjective;
+//30
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
+//31
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+//32
+// Setup
+let myStr = "Jello World";
+
+
+// Only change code below this line
+myStr="Hello World"; // Change this line
+// Only change code above this line
+//33
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
+//34
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastName[lastName.length-1]; // Change this line
+//35
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length-2]; // Change this line
+//36
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "My "+ myAdjective +" " + myNoun +" "+ myVerb + " " + myAdverb; // Change this line
+// Only change code above this line
