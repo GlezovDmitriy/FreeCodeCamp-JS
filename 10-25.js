@@ -129,3 +129,9 @@ const myAdverb = "quickly";
 // Only change code below this line
 const wordBlanks = "My "+ myAdjective +" " + myNoun +" "+ myVerb + " " + myAdverb; // Change this line
 // Only change code above this line
+//37
+const myArray = ["str", 5];
+//38
+// Only change code below this line
+const myArray = [["Bulls", 23], ["White Sox", 45]];
+//39
