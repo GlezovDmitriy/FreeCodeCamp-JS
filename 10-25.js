@@ -154,3 +154,10 @@ const myArray = [
   
   const myData = myArray[2][1];
   //42
+push
+  //43
+  // Setup
+const myArray = [["John", 23], ["cat", 2]];
+const removedFromMyArray = myArray.pop();
+// Only change code below this line
+//44
