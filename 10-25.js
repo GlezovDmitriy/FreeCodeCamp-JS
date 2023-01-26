@@ -172,3 +172,16 @@ myArray.shift();
 myArray.unshift(["Paul", 35]);
 
 // Only change code below this line
+//46
+const myList = [["Milk", 2], ["cheese", 4], ["bread", 3], ["tea", 2], ["coofe", 1]];
+//47
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction()
+//48
+function functionWithArgs(arg1, arg2) {
+  console.log(arg1+arg2);
+}
+functionWithArgs(3,5);
+//49
