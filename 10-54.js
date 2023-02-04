@@ -410,3 +410,30 @@ function testLessOrEqual(val) {
 
 testLessOrEqual(10);
 //65
+function testLessOrEqual(val) {
+  if (val<=12) {  // Change this line
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val<=24) {  // Change this line
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "More Than 24";
+}
+
+testLessOrEqual(10);
+//66
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val<10 || val>20) {
+    return "Outside";
+  }
+
+  // Only change code above this line
+  return "Inside";
+}
+
+testLogicalOr(15);
+//67
