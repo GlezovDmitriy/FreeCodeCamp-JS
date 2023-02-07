@@ -738,3 +738,13 @@ const testObj = {
 const entreeValue = testObj["an entree"];   // Change this line
 const drinkValue = testObj["the drink"];    // Change this line
 //83
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+myDog.name = "Happy Coder";
