@@ -531,7 +531,7 @@ function golfScore(par, strokes) {
 }
 
 golfScore(5, 4);
-71
+//71
 function caseInSwitch(val) {
   let answer = "";
   Only change code below this line
@@ -661,3 +661,37 @@ return undefined;
 
 console.log(abTest(-2,2));
 //77
+let count = 0;
+
+function cc(card) {
+  // Only change code below this line
+switch(card){
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+  case 6:
+  count= count+1;
+  break;
+  case 7:
+  case 8:
+  case 9:
+  count= count+0;
+  break;
+  case 10:
+  case "J":
+  case "Q":
+  case "K":
+  case "A":
+  count= count-1;
+  break;
+}
+if (count>0){
+return count + " Bet";  
+}
+  return count + " Hold";
+  // Only change code above this line
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
+//78
