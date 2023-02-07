@@ -695,3 +695,13 @@ return count + " Bet";
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 //78
+const myDog = {
+  // Only change code below this line
+"name": "Barsik",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["Roy", "Dot"]
+
+  // Only change code above this line
+};
+//79
