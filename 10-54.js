@@ -799,3 +799,28 @@ function checkObj(obj, checkProp) {
   }
   // Only change code above this line
 }
+//88
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true,
+  },
+
+  {"artist": "Billy Joel",
+    "title": "Man",
+    "release_year": 1975,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ]
+    }
+];
+//89
