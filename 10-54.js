@@ -898,3 +898,13 @@ function updateRecords(records, id, prop, value) {
 
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 //92
+// Setup
+const myArray = [];
+
+// Only change code below this line
+let i = 5;
+while (i>=0){
+  myArray.push(i);
+  i--;
+}
+//93
