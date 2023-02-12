@@ -1032,3 +1032,5 @@ function randomFraction() {
   // Only change code above this line
 }
 //102
+Math.floor(Math.random()*10);
+//103
