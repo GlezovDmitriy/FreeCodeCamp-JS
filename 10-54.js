@@ -1022,3 +1022,13 @@ for (let i=0; i<contacts.length; i++){
 
 
 lookUpProfile("Akira", "likes");
+//101
+function randomFraction() {
+
+  // Only change code below this line
+
+  return Math.random();
+
+  // Only change code above this line
+}
+//102
