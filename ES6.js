@@ -39,3 +39,5 @@ Object.freeze(MATH_CONSTANTS);
 }
 const PI = freezeObj();
 //4
+const magic = () => new Date;
+
