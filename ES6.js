@@ -40,4 +40,17 @@ Object.freeze(MATH_CONSTANTS);
 const PI = freezeObj();
 //4
 const magic = () => new Date;
+//5
+const myConcat = (arr1, arr2)=> arr1.concat(arr2);
+console.log(myConcat([1, 2], [3, 4, 5]));
+//6
+// Only change code below this line
+const increment = (number=6, value=1) => number + value;
+// Only change code above this line
+//7
+const sum = (...args) => {
+  
+  return args.reduce((a, b) => a + b, 0);
+}
+//8
 
