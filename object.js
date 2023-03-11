@@ -51,3 +51,12 @@ let dog = {
   let hound = new Dog();
 
   //7
+  function Dog(name, color) {
+    this.name = name;
+    this.numLegs = 4;
+    this.color = color;
+    }
+    let terrier = new Dog("Chac", 'red');
+
+    //8
+    
