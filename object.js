@@ -40,3 +40,14 @@ let dog = {
     this.color = "blue";
     this.numLegs = 2;
   }
+
+  //6
+  function Dog() {
+    this.name = "Rupert";
+    this.color = "brown";
+    this.numLegs = 4;
+  }
+  // Only change code below this line
+  let hound = new Dog();
+
+  //7
