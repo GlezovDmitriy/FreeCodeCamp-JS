@@ -58,5 +58,13 @@ let dog = {
     }
     let terrier = new Dog("Chac", 'red');
 
-    //8
-    
+  //8
+  function House(numBedrooms) {
+    this.numBedrooms = numBedrooms;
+  }
+  let myHouse = {
+   numBedrooms:2,
+  } 
+  myHouse instanceof House;
+  // Only change code below this line
+  
